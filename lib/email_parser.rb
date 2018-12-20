@@ -13,10 +13,10 @@ class EmailParser
   end 
 end 
 
-# emails1 = "avi@test.com, arel@test.com test@avi.com, test@arel.com"
-# parser1 = EmailParser.new(emails1)
-# parser1.parse 
+# emails = "avi@test.com, arel@test.com test@avi.com, test@arel.com"
+# test_1 = EmailParser.new(emails)
+# test_1.parse 
 
-# emails2 = "avi@test.com, arel@test.com test@avi.org, test@avi.org"
-# parser2 = EmailParser.new(emails2)
-# parser2.parse
+# emails_with_duplicates = "avi@test.com, arel@test.com test@avi.org, test@avi.org"
+# test_2 = EmailParser.new(emails_with_duplicates)
+# test_2.parse
